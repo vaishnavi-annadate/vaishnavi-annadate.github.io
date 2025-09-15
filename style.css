@@ -1262,6 +1262,14 @@ section {
 }
 
 /* Contact Section */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.social-links a { color: var(--color-primary); text-decoration: none; }
+.social-links a:hover { color: var(--color-primary-hover); }
+.social-links img { display: inline-block; vertical-align: middle; }
 .contact {
   background: var(--color-surface);
 }
